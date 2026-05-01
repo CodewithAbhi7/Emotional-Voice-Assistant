@@ -52,6 +52,7 @@ The current demo includes the features that are already working in this reposito
   reminders become firmer over time instead of repeating the same neutral alert
   
 <img width="1234" height="988" alt="Screenshot 2026-03-28 231754" src="https://github.com/user-attachments/assets/4f1798cc-9ff2-4afe-a944-7ac2ef7159fc" />
+
 <img width="1847" height="933" alt="Screenshot 2026-03-29 170957" src="https://github.com/user-attachments/assets/5aed5bdf-0fb8-4b81-8faa-c399d035e4c3" />
 
 
