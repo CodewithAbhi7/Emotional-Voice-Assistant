@@ -50,6 +50,10 @@ The current demo includes the features that are already working in this reposito
   create alarms from direct setup or natural language, including use cases like hydration, medicine, bedtime, meetings, and routines
 - Escalating alarm behavior:
   reminders become firmer over time instead of repeating the same neutral alert
+  
+<img width="1234" height="988" alt="Screenshot 2026-03-28 231754" src="https://github.com/user-attachments/assets/4f1798cc-9ff2-4afe-a944-7ac2ef7159fc" />
+<img width="1847" height="933" alt="Screenshot 2026-03-29 170957" src="https://github.com/user-attachments/assets/5aed5bdf-0fb8-4b81-8faa-c399d035e4c3" />
+
 
 
 ## Tech Stack
@@ -79,7 +83,9 @@ The current demo includes the features that are already working in this reposito
 - `frontend/src/pages/SetupPage.tsx`
 - `frontend/src/pages/AlarmPage.tsx`
 
-## Start the Chatterbox voice service
+## Installation
+
+### Start the Chatterbox voice service
 
 ```powershell
 cd C:\
@@ -90,7 +96,7 @@ docker compose -f docker/docker-compose.cpu.yml up -d
 docker logs chatterbox-tts-api-cpu -f
 ```
 
-## Start the backend
+### Start the backend
 
 ```powershell
 cd "C:\Users\Abhi\Downloads\voce assistant 2\backend"
@@ -100,7 +106,7 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-## Start the frontend on new terminal
+### Start the frontend on new terminal
 
 ```powershell
 cd "C:\Users\Abhi\Downloads\voce assistant 2\frontend"
